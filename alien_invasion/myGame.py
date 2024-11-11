@@ -13,7 +13,7 @@ class MyGame(arcade.Window):
     def __init__(self):
         """ Initializer """
         # Call the parent class initializer
-        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "Sprites and Bullets Demo")
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, "arcade_alien_invasion")
 
         # Variables that will hold sprite lists
         self.player_list = None
